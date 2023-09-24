@@ -1,0 +1,18 @@
+Simple HTML , CSS, JavaScript based SuperHeroes Project.
+
+Api is fetched to Home screen using fetchAPI function 
+and sets heroList on Home Page.
+md5 cdn is used to get hash value for marvel-website access.
+
+on click of Heart icon, evenhandler gets activated , 
+check if hero is already fav or not in local storage ,
+then marks it true there using addToFavList().
+
+
+On click of any SuperHero , its profile page is opened (openProfile()).
+On click of Favourites , all superHeroes that have been marked as un-favourite are made hidden. 
+Only favourites are shown.
+
+when a superHero is unLiked , a confirmation alert is shown only for Favourite screen( addToFavList()).
+
+Search Bar is there to search for superHeroes on screen.

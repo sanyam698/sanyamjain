@@ -1,0 +1,93 @@
+body{
+    background-color: rgba(255, 238, 0, 0.816);
+}
+
+
+.bgImage{
+background-image: url("./images/marvel-wallpaper-hd-captain-america.webp");
+background-size: auto;
+background-repeat: no-repeat;
+color:white;
+justify-content: center;
+
+}
+header{
+text-align: center;
+}
+
+nav{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+    &:hover{
+    cursor: pointer;
+    }
+}
+
+.myfav {
+    &:active{
+        color:red;
+        }
+}
+
+.myHome {
+    &:active{
+    color:blue;
+    }}
+
+
+
+#search-bar{
+outline:none;
+border:0px;
+padding:2px;
+}
+
+
+#list{
+list-style-type: none;
+margin:-4px;
+}
+
+
+.hero{
+display:flex;
+flex-direction: row;
+justify-content: space-evenly;
+    &:hover{
+    background-color:orange;
+    .heroTitle{
+        color:white;
+    }
+    }
+}
+
+.heroTitle{
+font-size:30px;
+text-align: center;
+vertical-align: middle;
+justify-content: center;
+position: relative;
+top: 120px;
+width:100px;
+color:black;
+    &:hover{
+    cursor: pointer;
+    color:grey;
+    }
+}
+
+
+
+.heroImage{
+width:300px;
+height:300px;
+padding: 0px;
+margin-left:-50px;
+}
+
+.checkout{
+position: relative;
+top: 120px;
+visibility:hidden;
+}
